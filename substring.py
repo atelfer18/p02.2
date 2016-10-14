@@ -40,3 +40,14 @@ def sub_search(word, s):
 
 
     
+
+    if word.lower() in s:
+        print("Found in original")
+
+    elif word.lower() in s[0::2]:
+        print("Found in substring")
+
+    else:
+        print("Not found")
+        
+    

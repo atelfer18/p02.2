@@ -35,3 +35,9 @@ def run_tests():
 def is_palindrome(word):
 
 
+    if word.lower() == word.lower()[::-1]:
+        print("Palindrome")
+
+    elif word.lower() != word.lower()[::-1]:
+        print("Non-palindrome")
+        
